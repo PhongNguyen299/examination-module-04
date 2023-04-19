@@ -1,0 +1,62 @@
+.employee-list-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    }
+
+h1 {
+    color: #da5b5b;
+    font-family: "Bookman Old Style";
+}
+.employee-list-title {
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+    font-size: 2rem;
+    font-weight: bold;
+}
+
+.employee-list-actions {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 2rem;
+}
+
+.employee-list-button {
+    font-size: 1rem;
+    font-weight: bold;
+    color: white;
+    background-color: #007bff;
+    border: none;
+    border-radius: 5px;
+    padding: 1rem 2rem;
+    margin: 1rem;
+    cursor: pointer;
+    position: absolute;
+    left: 9%;
+    top: 15%;
+}
+
+.employee-list-button:hover {
+    background-color: #0069d9;
+}
+
+@media only screen and (max-width: 600px) {
+    .employee-list-container {
+        margin: 0;
+    }
+
+    .employee-list-title {
+        margin-top: 1rem;
+        margin-bottom: 1rem;
+        font-size: 1.5rem;
+    }
+
+    .employee-list-actions {
+        margin-bottom: 1rem;
+    }
+
+    .employee-list-button {
+        font-size: 0.8rem;
+        padding: 0.3rem 0.6rem;
+    }
+}

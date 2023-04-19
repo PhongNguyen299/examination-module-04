@@ -1,0 +1,127 @@
+.employee-edit-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+    background-color: #f2f2f2;
+    border-radius: 5px;
+}
+
+.employee-edit-title {
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+.employee-edit-form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.employee-edit-input-container {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 20px;
+}
+
+.employee-edit-label {
+    font-size: 18px;
+    margin-bottom: 5px;
+}
+
+.employee-edit-input {
+    padding: 5px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    width: 300px;
+    font-size: 16px;
+}
+
+.employee-edit-button-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.employee-edit-back-button {
+    padding: 10px 20px;
+    margin-right: 10px;
+    border: none;
+    background-color: #ccc;
+    color: #fff;
+    font-size: 16px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.employee-edit-back-button:hover {
+    background-color: #aaa;
+}
+
+.employee-edit-submit-button {
+    padding: 10px 20px;
+    border: none;
+    background-color: #007bff;
+    color: #fff;
+    font-size: 16px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.employee-edit-submit-button:hover {
+    background-color: #0069d9;
+}
+
+.employee-edit-input-container {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 16px;
+}
+
+.employee-edit-label {
+    font-weight: bold;
+    margin-bottom: 8px;
+}
+
+.employee-edit-input {
+    padding: 8px;
+    border-radius: 4px;
+    border: 1px solid #ccc;
+    font-size: 16px;
+}
+
+.employee-edit-form {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.employee-edit-button-container {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    margin-top: 16px;
+}
+
+.employee-edit-back-button, .employee-edit-submit-button {
+    padding: 8px 16px;
+    border-radius: 4px;
+    font-size: 16px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.employee-edit-back-button {
+    background-color: #ccc;
+    color: #333;
+    border: none;
+}
+
+.employee-edit-submit-button {
+    background-color: rgba(0, 105, 217, 0.79);
+    color: #fff;
+    border: none;
+}

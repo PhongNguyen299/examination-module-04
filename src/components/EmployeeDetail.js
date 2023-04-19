@@ -1,6 +1,7 @@
 import React, { useEffect, useState } from "react";
 import { useParams } from "react-router-dom";
 import axios from "axios";
+import './EmployeeDetail.css'
 
 function EmployeeDetails() {
     const EMPLOYEE_MANAGEMENT_API = "https://643f529c3dee5b763e1a29be.mockapi.io/api/";
@@ -34,7 +35,6 @@ function EmployeeDetails() {
             <button type="button" onClick={getEmployees}>
                 Back
             </button>&nbsp;
-
         </div>
     );
 }
